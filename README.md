@@ -18,9 +18,9 @@
   * ### ER 모델 : 개체(Entity)와 개체간의 관계(Realationship)로 표현하는 모델
   * ### ERD : ER 모델을 그림(Diagram)으로 표현한 것
   * ### 데이터 구조를 자신이 읽고 쓰기 편하게 ...
-  * ![KakaoTalk_20240708_103411056_01.jpg](..%2F..%2F..%2FVideos%2FCaptures%2FKakaoTalk_20240708_103411056_01.jpg)
-  * ![KakaoTalk_20240708_103411056.jpg](..%2F..%2F..%2FVideos%2FCaptures%2FKakaoTalk_20240708_103411056.jpg)
-  
+  * ![KakaoTalk_20240708_103411056_01.jpg](..%2FgitImage%2FKakaoTalk_20240708_103411056_01.jpg)
+  * ![KakaoTalk_20240708_103411056.jpg](..%2FgitImage%2FKakaoTalk_20240708_103411056.jpg)
+
 * ## :balloon: ER 모델 구성 요소 (엔티티, 관계, 속성, 식별자)
   * ## :star: 엔티티 (class,table)
     * ### 클래스 정의와 유사 
