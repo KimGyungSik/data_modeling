@@ -72,8 +72,8 @@
       * #### 본질 식별자 / 인조 식별자
       * #### 주 식별자 / 보조 식별자
     * ### 식별자를 최소 속성으로 구성하지 않은 경우
-      * 
+      * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/ecf24c03-fa22-48f8-bf2d-db9af59f4c4b" width="500">
     * ### 식별자 속성의 값이 변하는 경우
-      * 
+      * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/81027d2f-6f1c-4be6-b258-284dd14e4e31" width="500">
     * ### 본질 식별자(업무에서 자연적으로 가지는 특성) / 인조 식별자(시스템에서 필요에 의해 추가한 속성)
       * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/44204c66-f075-447c-b553-3e70550e0d6b" width="500">
