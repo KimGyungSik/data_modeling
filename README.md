@@ -89,9 +89,9 @@
 
 * ## :balloon: 관계형 데이터 모델 이론
   * ## :star: 관계형 데이터 모델(릴레이션)
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/db7855e8-130b-4021-8075-82b621e9f3ed" width="500">
   * ## :star: 관계형 모델의 키
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/50278eb0-6158-4065-8ebe-bac72f77051c" width="500">
     * ### 슈퍼키 : 튜플을 고유하게 식별 할 수 있는 속성 집합
     * ### 후보키 : 튜플을 고유하게 식별 할 수 있는 최소한의 속성 집합
     * ### 기본키 : PK(NN + UQ), 유일성 + 최소성
@@ -103,7 +103,7 @@
     * ### 영역 무결성 : 도메인에 속한 값
     * ### 참조 무결성 : 참조 FK
   * ## :star: 함수 종속
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/ae43ffc2-edc8-462f-8f5b-5168d5a37e53" width="500">
   * ## :star: 정규화
     * ### 정규화 : 중복 제거하기 위해 테이블을 쪼개는 것
       * #### 데이터를 입력, 수정, 삭제할 떄 발생하는 이상 현상을 최소화하기 위해 좀 더 작은 단위의 테이블로 설계
@@ -114,11 +114,12 @@
     * #### 5. 데이터 입력, 수정, 삭제시 작업을 최소화
     * #### 정규화를 너무 많이 할 경우 다시 역정규화 할 수 있음
   * ### 제 1 정규화 : 모든 열의 값은 원자값을 가져야함, 관계형 테이블은 중복되는 행이 없어야함
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/ddfd0f58-bad2-425c-bb58-f8b8d8d4c528" width="500">
   * ### 제 2 정규화 : 부분 종속 해소, 후보키에 종속적이지 않거나 후보키 일부 어트리뷰트에 종속적인 어트리뷰트는 별도 릴레이션으로 분리해야함
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/ac078b1a-affc-4c73-8213-7c532658c638" width="500">
   * ### 제 3 정규화 : 이행적 종속 해소, 키가 아닌 어떤 어트리뷰트가 다른 어트리뷰트에 종속된 경우 별도 릴레이션으로 분리
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/0bcf5625-3a2d-4f53-a476-576eb7f76232" width="500">
+
 
 ---
 
