@@ -126,7 +126,7 @@
 ## :dart: 2. 개념 모델링 
 * ## :balloon: 데이터 모델링 접근 방법 : 데이터 모델링 작업 흐름
   *  [데이터 모델링 절차]
-      * 사진
+      * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/edd9b0c1-2e93-410e-8ad5-8cb228466b47" width="500">
       * 크게 순서 4가지
       * (1) 주제 선정 : 주제 및 벤치마킹 사이트 선정, 요구사항 분석
       * (2) 핵심 엔티티 도출 : 요구사항 분석에서 핵심 키워드 뽑아내기
@@ -138,19 +138,20 @@
   * ### 현행 분석 및 방향성 수립
     * 현행 ERD, 테이블 정의서 등의 산출물을 수집하여 분석/ 요구사항 정의는 현업 및 운영담당자와 인터뷰를 통해 요구사항 상세화
     * 현행 ERD가 없거나 현행화가 이루어지지 않은 경우 리버스 모델(물리->논리) 활용하는 것이 좋음
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/2845da3c-277c-4118-aae5-a60bb0f6acfa" width="500">
 * ## :balloon: 개념 모델링 : 주제영역 도출, 주제영역 분류 및 정의, 핵심 엔티티 정의 및 관계 정의
   * ### 주제영역 도출
     * #### 가장 큰 특징 : 기업에서 보유하거나 관리하는 데이터가 무엇인지 누가 오너십(데이터의 책임)을 가졌는지 큰 틀에서 파악가능하다는 것
-    * 사진
+    * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/f353e609-edc5-4ff3-8fa8-66c7b14bbe33" width="500">
   * ### 주제영역 분류
     * [주제영역 프레임워크]
-      * 사진
+      * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/1126aaf7-752e-4daa-b95e-609bc0921af1" width="500">
     * [주제영역 분류]
-      * 사진
+      * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/8f9a82b5-1e96-4b27-aea1-5d0e1e520ebe" width="500">
     * 업무에서 발생하는 데이터를 발생 주체,발생한 장소 등의 관점에서 데이터를 분류할 수 있음
   * ### 주제영역 정의
     * [주제영역정의서]
-      * 사진
+      *<img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/76a5113e-836d-4c89-9a72-4fd002d8850b" width="500">
   * ### 핵심 엔티티 : 업무 주체, 대상, 자원, 장소 등에 해당하는 엔티티
     * 데이터 주제영역별로 대표성을 갖는 핵심 엔티팉 도출하고 식별
 
