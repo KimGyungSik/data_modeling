@@ -151,7 +151,7 @@
     * 업무에서 발생하는 데이터를 발생 주체,발생한 장소 등의 관점에서 데이터를 분류할 수 있음
   * ### 주제영역 정의
     * [주제영역정의서]
-      *<img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/76a5113e-836d-4c89-9a72-4fd002d8850b" width="500">
+      * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/76a5113e-836d-4c89-9a72-4fd002d8850b" width="500">
   * ### 핵심 엔티티 : 업무 주체, 대상, 자원, 장소 등에 해당하는 엔티티
     * 데이터 주제영역별로 대표성을 갖는 핵심 엔티팉 도출하고 식별
 
@@ -171,60 +171,60 @@
     * 데이터 성격에 따라 4가지로 나뉨
       * (1) 유형 및 분류(Type&Category) : 각종 코드 정보로 실 세계 데이터 집합을 유형화하거나 계층적으로 분류하는 정보, 카테고리 대/중/소 분류, 고객유형코드, 상품분류코드 등 각종 코드정보
         * [통계청 한국표준산업분류]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/0e2dab06-8226-4c5f-ac39-fb1dd17716bd" width="500">
       * (2) 업무규칙 및 지식(Rule&Knowledge) : 업무 처리를 위한 각종 규정과 지식, 비즈니스 이벤트 발생을 위한 조건 -> 회원등급, 보험료 조건, 지역별 담당자
         * [서비스-자격, 자격-요건 업무규칙 정의]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/d2927630-b6c4-4df8-a474-850968099353" width="500">
       * (3) 업무주체 및 대상(Subject&Object) : 비즈니스 이벤트의 주체 또는 대상 -> 부서, 사원, 고객, 상품
         * [업무 주체 및 대상]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/831eb343-58a0-4c9a-8420-ccf6ec475acb" width="500">
       * (4) 장소(Where) : 비즈니스 이벤트가 발생하는 장소 -> 물류창고, 공장, AS센터, 도로, 채널, 지역 등
         * [창고,통신 국사 등 장소 관련 엔티티]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/bd7e57e6-1eca-4acc-a511-890a0bdf6700" width="500">
     * ### :star: 중요 엔티티 (동사)
       * 업무 주체(고객, 직원)와 업무 대상(상품)간의 거래나 업무 행위에 의해 발생 -> 주문, 약정, 입출고 등
         * [업무영역 중요 엔티티]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/5ec79c25-b328-4ff7-89c6-3a49f42e17e6" width="500">
         * [계좌는 고객과 상품 간의 관계 엔티티]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/838ba9fb-4df5-4473-806b-01fefba5d5a7" width="500">
     * ### :star: 행위 엔티티 (파생 엔티티, 업무 행위로부터 발생하는 데이터를 나타내는 엔티티) -> 상세/내역, 상태, 이력, 교차
       * 업무 행위에 대한 상세내역 및 업무 결과에 대한 상태(Status)를 나타내는 엔티티
       * 중요 엔티티에 종속되거나 다른 행위 엔티티에 종속됨
       * 중요 엔티티에 인스턴스(Row)가 발생함과 동시에 행위 엔티티에도 하나 이상의 인스턴스가 발생 -> 주문내역, 결제내역, 배송지상세내역 등
       * 중요 엔티티를 삭제하면 행위 엔티티도 더 이상 관리 X
       * [행위 엔티티 유형]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/06ae0bb9-052f-4531-be2d-c43d199dd16c" width="500">
         * 상세/내역 : 품의내역, 품의거래처, 품의첨부파일
         * 상태 : 품의진행상태
         * 이력관리 : 품의이력
       * ### 상세/내역 :  중요 엔티티에 해당하는 행위 엔티티를 구성하는 항목 단위로 분류
       * ### 상태 : 일반적으로 업무는 더 작은 업무 단위로 나누어 처리되며, 시간의 간격을 두고 업무 단계별로 담장자가 업무를 처리하는 흐름을 가짐
         * [결재 프로세스]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/8e69d81c-fe53-4a5b-9987-56647aaba9a8" width="500">
       * ### 이력 : 원래 관리하던 데이터가 변경되었을 떄 변경 전 데이터를 추가로 관리하는 엔티티
         * [이력 엔티티]
-          * 사진
+          * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/efaf5ef5-834d-479a-aa92-f5528d3a10c4" width="500">
         * 이력관리는 관리범위에 따라 5가지로 구분됨 (주관식->객관식)
           * (1) 속성 전체를 대상으로 이력을 관리
             * [이력관리 범위 및 형태]
-            * 사진
+            * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/a5a43f84-b1d0-4d1a-896a-641175d6c477" width="500">
             * [전체 항목 이력 관리]
-            * 사진
+            * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/6b605aa8-1003-4813-bb9f-cfc9aef3e03f" width="500">
           * (2) 일부 속성을 대상으로 이력을 관리
             * [변경 항목만 이력 관리]
-            * 사진
+            * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/ba12e6c2-dde8-4d7f-893e-de0a54e2992c" width="500">
           * (3) 점 이력 -> 변경 시점을 이벤트로 관리
             * [변경 시점을 이벤트로 관리할 떄 데이터 처리]
-            * 사진
+            * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/c44ec53c-43e1-48ba-ad0e-38aa35b25845" width="500">
           * (4) 선분 이력 -> 변경 시점을 구간으로 관리
             * [변경 시점을 구간으로 관리할 때 데이터 처리]
-            * 사진
+            * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/7fd1ca79-60c1-4199-b0e9-094588577625" width="500">
           * (5) 현재값 포함 -> 현재 값도 포함해서 관리
             * [최종 데이터 포함 이력]
-            * 사진
+            * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/06848f0c-38c2-4aad-bde7-261c5ee91f00" width="500">
       * ### 교차 : M:N 관계해소, 병렬관계해소
     * ### 기본적인 단어나 용어를 통일하는 것이 좋음
       * [단어 및 용어 통일]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/01894dfd-b4e4-4904-aa6f-eb6f92a14da0" width="500">
       * [엔티티명 명명 규칙 예시]
-        * 사진
+        * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/b33dde58-7f6b-440e-b806-1a67065f7b02" width="500">
