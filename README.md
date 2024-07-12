@@ -21,7 +21,7 @@
   * ### 데이터 모델링 : 실제 업무에 맞게 데이터의 특성과 구조를 만드는 것
   * ### ER 모델 : 개체(Entity)와 개체간의 관계(Realationship)로 표현하는 모델
   * ### ERD : ER 모델을 그림(Diagram)으로 표현한 것
-  * ### 데이터 구조를 자신이 읽고 쓰기 편하게 ...
+  * ### 데이터 구조를 자신이 읽고 쓰기 쉬운 구조로 설계하는 것!
   * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/593d8f9f-8d55-4ee3-ac89-85dedad52b1b" width="500">
   * <img src="https://github.com/KimGyungSik/data_modeling/assets/139200972/98f491dd-50a5-42d6-81a8-40a8fc366089" width="500">
 
